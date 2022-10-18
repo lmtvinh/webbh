@@ -11,6 +11,10 @@ function open_signin() {
     onchangetosignin();
 }
 
+function checkpass() {
+  
+}
+
 function onchangetosignin() {
     document.getElementById("formauth").innerHTML = `
         <div id="signin">
@@ -31,6 +35,8 @@ function onchangetosignin() {
         </div>
     `
 }
+
+
 
 function onchangetosignup() {
     document.getElementById("formauth").innerHTML = `

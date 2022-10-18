@@ -56,9 +56,6 @@
     border-style: solid;
     border-color: white;
 }
-#rmenu {
-    list-style: none;
-}
 
 #menu-header{
     font-size: 15px !important;
@@ -138,3 +135,53 @@
     margin: 1px;
 }
 
+#menu {
+    width: 100%;
+    display: flex;
+    border-style: solid;
+    border: none;
+}
+
+#cmenu {
+    width: 60%;
+    border: none;
+    border-style: solid;
+    border: none;
+}
+
+#cmenu .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: space-between;
+    align-content: stretch;
+}
+
+.container div{
+    display: inline-flex;
+    margin: 20px;
+    height: 200px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+    border: none;
+    background-color: purple;
+    width: 19%;
+    color: while;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+@media (max-width: 1280px) {
+    .container div {
+        width: 32%;
+        margin: 0;
+    }
+}
+
+@media (max-width: 900px) {
+    .container div {
+        width: 48%;
+        margin: 0;
+    }
+}
