@@ -13,6 +13,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap" rel="stylesheet">
@@ -20,7 +21,12 @@
   <body>
     <div id="all">
       <div id="header">
-        <a>Web Bán Mô Hình</a>
+        <a class="icon_menu" onclick="myFunction()">
+          <span>
+            <i class="fa fa-bars"></i>
+          </span>
+        </a>
+        <a class="tieudeu">Web Bán Mô Hình</a>
       </div>
       <div id="menu-header" style="display: flex;">
         <div style="cursor: pointer" id="sign-up" onclick="open_signup()">
@@ -32,7 +38,7 @@
       </div>
       </div>
       <div id="modal" hidden>
-        <form id="formauth">
+        <form id="formauth" onsubmit="check(event);">
         </form>
       </div>
       <div id="myTopnav" class="topnav">
@@ -46,7 +52,7 @@
             </a>
           </li>
           <li class="has-child">
-            <a class="icon1">
+            <a class="icon1" href="index.html?1">
               <span class="icon">
                 <i class="fa fa-solid fa-car"></i>
               </span>
@@ -54,7 +60,7 @@
             </a>
           </li>
           <li class="has-child">
-            <a class="icon1">
+            <a class="icon1" href="index.html?2">
               <span>
                 <i class="fa fa-solid fa-truck-fast"></i>
               </span>
@@ -122,32 +128,7 @@
     </div>
     <div id="menu">
       <div id="cmenu">
-        <div class="container">
-          <div id="sp_img">
-            <img src="D:/webbh/image/son_go_ku.jpg" alt="Mô hình sản phẩm" >
-          </div>
-          <div id="sp_img">
-            <img src="D:/webbh/image/son_go_ku.jpg" alt="Mô hình sản phẩm" >
-          </div>
-          <div id="sp_img">
-            <img src="D:/webbh/image/son_go_ku.jpg" alt="Mô hình sản phẩm" >
-          </div>
-          <div id="sp_img">
-            <img src="D:/webbh/image/son_go_ku.jpg" alt="Mô hình sản phẩm" >
-          </div>
-          <div id="sp_img">
-            <img src="D:/webbh/image/son_go_ku.jpg" alt="Mô hình sản phẩm" >
-          </div>
-          <div id="sp_img">
-            <img src="D:/webbh/image/son_go_ku.jpg" alt="Mô hình sản phẩm" >
-          </div>
-          <div id="sp_img">
-            <img src="D:/webbh/image/son_go_ku.jpg" alt="Mô hình sản phẩm" >
-          </div>
-          <div id="sp_img">
-            <img src="D:/webbh/image/son_go_ku.jpg" alt="Mô hình sản phẩm" >
-          </div>
-        </div>
+
       </div>
     </div>
     <script

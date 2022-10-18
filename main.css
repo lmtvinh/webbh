@@ -7,6 +7,25 @@
     border-radius: 10px;
     border-style: solid;
     border-color: white;
+    display: flex;
+}
+#header a{
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+#header a.tieude {
+    right: 100px;
+    width: 60%;
+    color: black;
+}
+#header a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 #myTopnav {
     margin: 0px;
@@ -19,19 +38,8 @@
     padding: 0px;
     margin: 0px;
 }
-@media (min-width: 865px) {
-    .icon {
-    display: none;
-    visibility: hidden;
-    }
-}
 
-@media (max-width: 865px) {
-    #myTopnav {
-        display: none;
-        visibility: hidden;
-    }
-}
+
 
 .has-child {
     text-align: center;
@@ -91,11 +99,14 @@
 }
 
 #modal>form {
+    background-color: #0c162d;
+    color: #00cfc8;
+    font-weight: 600;
+    font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace !important;
     border-radius: 10px;
     margin: 70px auto;
     padding: 20px;
     width: 400px;
-    background-color: white;
     position: relative;
 }
 
