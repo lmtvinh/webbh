@@ -181,6 +181,11 @@
     font-size: 30px;
 }
 
+.sp_img {
+    width: 194px;
+    height: 213px;
+}
+
 @media (max-width: 1280px) {
     .container div {
         width: 32%;
