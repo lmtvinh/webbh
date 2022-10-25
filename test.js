@@ -151,42 +151,44 @@ switch (searchParams[1]) {
   case '2':
     renderMoHinh()    
     break;
-     default :
-     renderHome()
-    break;
-}
+  case '3':
 
-function renderMoHinh() {
-  document.getElementById("cmenu").innerHTML = `        <div class="container">
-          <div id="sp_img">
-            <img src="https://github.com/lmtvinh/webbh/raw/main/image/son_go_ku.jpg" alt="Mô hình sản phẩm" >
-          </div>
-          <div id="sp_img">
-            <img src="https://github.com/lmtvinh/webbh/raw/main/image/son_go_ku.jpg" alt="Mô hình sản phẩm" >
-          </div>
-          <div id="sp_img">
-            <img src="https://github.com/lmtvinh/webbh/raw/main/image/son_go_ku.jpg" alt="Mô hình sản phẩm" >
-          </div>
-          <div id="sp_img">
-            <img src="https://github.com/lmtvinh/webbh/raw/main/image/son_go_ku.jpg" alt="Mô hình sản phẩm" >
-          </div>
-          <div id="sp_img">
-            <img src="https://github.com/lmtvinh/webbh/raw/main/image/son_go_ku.jpg" alt="Mô hình sản phẩm" >
-          </div>
-          <div id="sp_img">
-            <img src="https://github.com/lmtvinh/webbh/raw/main/image/son_go_ku.jpg" alt="Mô hình sản phẩm" >
-          </div>
-          <div id="sp_img">
-            <img src="https://github.com/lmtvinh/webbh/raw/main/image/son_go_ku.jpg" alt="Mô hình sản phẩm" >
-          </div>
-          <div id="sp_img">
-            <img src="https://github.com/lmtvinh/webbh/raw/main/image/son_go_ku.jpg" alt="Mô hình sản phẩm" >
-          </div>
-        </div>`
+  default :
+    renderDragonBall()
+  break;
 }
 
 function renderHome() {
   document.getElementById("cmenu").innerHTML = `        <div class="container">
+        </div>`
+}
+
+function renderDragonBall() {
+  document.getElementById("cmenu").innerHTML = `        <div class="container">
+          <div id="sp_img">
+            <img src="https://github.com/lmtvinh/webbh/raw/main/image/son_go_ku.jpg" alt="Mô hình sản phẩm" >
+          </div>
+          <div id="sp_img">
+            <img src="https://github.com/lmtvinh/webbh/raw/main/image/son_go_ku.jpg" alt="Mô hình sản phẩm" >
+          </div>
+          <div id="sp_img">
+            <img src="https://github.com/lmtvinh/webbh/raw/main/image/son_go_ku.jpg" alt="Mô hình sản phẩm" >
+          </div>
+          <div id="sp_img">
+            <img src="https://github.com/lmtvinh/webbh/raw/main/image/son_go_ku.jpg" alt="Mô hình sản phẩm" >
+          </div>
+          <div id="sp_img">
+            <img src="https://github.com/lmtvinh/webbh/raw/main/image/son_go_ku.jpg" alt="Mô hình sản phẩm" >
+          </div>
+          <div id="sp_img">
+            <img src="https://github.com/lmtvinh/webbh/raw/main/image/son_go_ku.jpg" alt="Mô hình sản phẩm" >
+          </div>
+          <div id="sp_img">
+            <img src="https://github.com/lmtvinh/webbh/raw/main/image/son_go_ku.jpg" alt="Mô hình sản phẩm" >
+          </div>
+          <div id="sp_img">
+            <img src="https://github.com/lmtvinh/webbh/raw/main/image/son_go_ku.jpg" alt="Mô hình sản phẩm" >
+          </div>
         </div>`
 }
 
@@ -217,4 +219,33 @@ function renderCar() {
             <img src="https://th.bing.com/th/id/OIP.N64Owy-0ThsI3k8xX8vjDQHaEK?pid=ImgDet&w=1280&h=720&rs=1" alt="Mô hình sản phẩm" >
           </div>
         </div>`
+}
+
+function renderNaruto() {
+  document.getElementById("cmenu").innerHTML `
+          <div id="sp_img">
+            <img src="https://th.bing.com/th/id/OIP.N64Owy-0ThsI3k8xX8vjDQHaEK?pid=ImgDet&w=1280&h=720&rs=1" alt="Mô hình sản phẩm" >
+          </div>
+          <div id="sp_img">
+            <img src="https://th.bing.com/th/id/OIP.N64Owy-0ThsI3k8xX8vjDQHaEK?pid=ImgDet&w=1280&h=720&rs=1" alt="Mô hình sản phẩm" >
+          </div>
+          <div id="sp_img">
+            <img src="https://th.bing.com/th/id/OIP.N64Owy-0ThsI3k8xX8vjDQHaEK?pid=ImgDet&w=1280&h=720&rs=1" alt="Mô hình sản phẩm" >
+          </div>
+          <div id="sp_img">
+            <img src="https://th.bing.com/th/id/OIP.N64Owy-0ThsI3k8xX8vjDQHaEK?pid=ImgDet&w=1280&h=720&rs=1" alt="Mô hình sản phẩm" >
+          </div>
+          <div id="sp_img">
+            <img src="https://th.bing.com/th/id/OIP.N64Owy-0ThsI3k8xX8vjDQHaEK?pid=ImgDet&w=1280&h=720&rs=1" alt="Mô hình sản phẩm" >
+          </div>
+          <div id="sp_img">
+            <img src="https://th.bing.com/th/id/OIP.N64Owy-0ThsI3k8xX8vjDQHaEK?pid=ImgDet&w=1280&h=720&rs=1" alt="Mô hình sản phẩm" >
+          </div>
+          <div id="sp_img">
+            <img src="https://th.bing.com/th/id/OIP.N64Owy-0ThsI3k8xX8vjDQHaEK?pid=ImgDet&w=1280&h=720&rs=1" alt="Mô hình sản phẩm" >
+          </div>
+          <div id="sp_img">
+            <img src="https://th.bing.com/th/id/OIP.N64Owy-0ThsI3k8xX8vjDQHaEK?pid=ImgDet&w=1280&h=720&rs=1" alt="Mô hình sản phẩm" >
+          </div>
+  `
 }
